@@ -1,10 +1,10 @@
 def square_array(array)
 
-  square_array = []
+  squared_array = []
   array.each do |i|
     i ** 2
-    square_array.push
+    squared_array.push
   end
-    return square_array
+    return squared_array
   # your code here
 end
